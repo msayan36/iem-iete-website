@@ -29,6 +29,16 @@ const Contact = () => {
             action="https://formsubmit.co/sayanmunshi36@gmail.com"
             method="POST"
           >
+            <input
+              type="hidden"
+              name="_autoresponse"
+              value="Thanks for contacting with us"
+            />
+            <input
+              type="hidden"
+              name="_next"
+              value="https://iem-iete-students-forum.netlify.app/"
+            />
             <div className="lg:w-1/2 md:w-2/3 mx-auto">
               <div className="flex flex-wrap -m-2">
                 <div className="p-2 w-1/2">
