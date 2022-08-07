@@ -1,0 +1,90 @@
+const Contact = () => {
+  return (
+    <div
+      className="mb-10 pt-20 flex flex-col items-center justify-between w-[75rem] mx-auto"
+      id="contact"
+    >
+      <div className="w-11/12">
+        <h2 className="text-4xl mb-5 text-left font-bold text-accent border-b-4 border-b-accent w-fit">
+          GET IN TOUCH
+        </h2>
+        <div className="mx-10">
+          <p className="text-lg">
+            In case of any query do reach out to us in the given below details.
+          </p>
+          <div className="my-5">
+            <p className="text-lg">
+              <span className="text-primary-content font-semibold">Email:</span>{" "}
+              susovan.jana@iemcal.com
+            </p>
+            <p className="text-lg">
+              <span className="text-primary-content font-semibold">
+                Mobile No.:
+              </span>{" "}
+              (+91)9748052998
+            </p>
+          </div>
+          <p className="text-lg mb-5">Or message us from here.</p>
+          <div class="lg:w-1/2 md:w-2/3 mx-auto">
+            <div class="flex flex-wrap -m-2">
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label
+                    for="name"
+                    class="leading-7 text-sm text-primary-content"
+                  >
+                    Name
+                  </label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  />
+                </div>
+              </div>
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label
+                    for="email"
+                    class="leading-7 text-sm text-primary-content"
+                  >
+                    Email
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                  />
+                </div>
+              </div>
+              <div class="p-2 w-full">
+                <div class="relative">
+                  <label
+                    for="message"
+                    class="leading-7 text-sm text-primary-content"
+                  >
+                    Message
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="p-2 w-full">
+                <button class="btn flex mx-auto bg-accent border-0 py-2 px-8 focus:outline-none hover:bg-accent-focus rounded text-lg">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Contact;
