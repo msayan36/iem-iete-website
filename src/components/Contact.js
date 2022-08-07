@@ -82,7 +82,10 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="p-2 w-full">
-                  <button className="btn flex mx-auto bg-accent border-0 py-2 px-8 focus:outline-none hover:bg-accent-focus rounded text-lg">
+                  <button
+                    type="submit"
+                    className="btn flex mx-auto bg-accent border-0 py-2 px-8 focus:outline-none hover:bg-accent-focus rounded text-lg"
+                  >
                     Submit
                   </button>
                 </div>
