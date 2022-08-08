@@ -15,7 +15,7 @@ const Contact = () => {
           <div className="my-5">
             <p className="text-lg">
               <span className="text-primary-content font-semibold">Email:</span>{" "}
-              susovan.jana@iemcal.com
+              iemiete2022@gmail.com
             </p>
             <p className="text-lg">
               <span className="text-primary-content font-semibold">
