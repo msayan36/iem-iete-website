@@ -1,4 +1,5 @@
 import Card from "./Card";
+import SeniorCard from "./SeniorCard";
 import CardMem from "./CardMem";
 import sayan_img from "../img/sayan_img.jpg";
 import sayan_adak_img from "../img/sayan_adak_img.jpg";
@@ -9,6 +10,7 @@ import subham_img from "../img/subham_img.jpg";
 import anirban_das_img from "../img/anirban_das_img.jpg";
 import moutushi_maam_img from "../img/moutushi_maam_img.jpg";
 import susovan_sir_img from "../img/susovan_sir_img.jpg";
+import soumyadeep_img from "../img/soumyadeep_img.jpg";
 
 const Members = () => {
   return (
@@ -29,6 +31,26 @@ const Members = () => {
             <h3 className="text-2xl text-primary-content font-semibold">
               Management Committee [2022 - 2023]
             </h3>
+            <div className="scenior_sec my-16 mx-32">
+              <SeniorCard
+                imgSrc={anirban_das_img}
+                name="Dr. Anirban Das"
+                role="Nominated EC Member"
+                dsgn="Treasurer of IETE Kolkata"
+              />
+              <SeniorCard
+                imgSrc={moutushi_maam_img}
+                name="Dr. Moutushi Singh"
+                role="Faculty Advisor"
+                dsgn="HOD of Department of IT and IOTCSBT and IOT"
+              />
+              <SeniorCard
+                imgSrc={susovan_sir_img}
+                name="Dr. Susovan Jana"
+                role="Faculty Coordinator"
+                dsgn="Assistant Professor Department of IT"
+              />
+            </div>
             <div className="grid grid-cols-3 gap-10 mt-10 mx-10">
               <Card img={sayan_img} name="Sayan Das" role="Chairman" />
               <Card img={sahin_img} name="Sahin Rizwana" role="Vice-Chairman" />
@@ -48,20 +70,22 @@ const Members = () => {
                 name="Subham Saha"
                 role="Joint Program Coordinator"
               />
+            </div>
+          </div>
+          <div className="mng_committee mt-5 mx-10 mb-16">
+            <h3 className="text-2xl text-primary-content font-semibold">
+              Technical Committee [2022 - 2023]
+            </h3>
+            <div className="grid grid-cols-3 gap-10 mt-10 mx-10">
               <Card
-                img={anirban_das_img}
-                name="Dr. Anirban Das"
-                role="Nominated EC Member"
+                img={soumyadeep_img}
+                name="Saumyadeep Chakrabarty"
+                role="Technical Administrator"
               />
               <Card
-                img={moutushi_maam_img}
-                name="Dr. Moutushi Singh"
-                role="Faculty Advisor"
-              />
-              <Card
-                img={susovan_sir_img}
-                name="Dr. Susovan Jana"
-                role="Faculty Coordinator"
+                img={sahin_img}
+                name="Rachna Kumari"
+                role="Graphics Designer"
               />
             </div>
           </div>

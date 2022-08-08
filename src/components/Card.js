@@ -5,8 +5,8 @@ const Card = ({ img, name, role }) => {
         <img src={img} alt="" />
       </figure>
       <div className="card-body flex flex-col items-center">
-        <h2 className="text-2xl font-bold">{name}</h2>
-        <p className="text-lg font-semibold">{role}</p>
+        <h2 className="text-lg font-bold">{name}</h2>
+        <p className="text-base font-semibold">{role}</p>
       </div>
     </div>
   );

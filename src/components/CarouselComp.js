@@ -1,6 +1,8 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import g_img_1 from "../img/gallery_img/g_img_1.jpg";
+import g_img_2 from "../img/gallery_img/g_img_2.jpg";
 
 const CarouselComp = ({ blogData }) => {
   const responsive = {
@@ -70,14 +72,14 @@ const CarouselComp = ({ blogData }) => {
         autoPlaySpeed={2000}
         responsive={responsive}
         itemClass="px-4"
-        className="z-10 h-96 md:w-11/12 mx-auto"
+        className="z-10 h-fit md:w-full mx-auto"
         ssr={true}
       >
         <div className="relative h-screen cursor-pointer hover:opacity-90">
           <div
             className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full h-screen"
             style={{
-              backgroundImage: `url(https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?k=20&m=517188688&s=612x612&w=0&h=i38qBm2P-6V4vZVEaMy_TaTEaoCMkYhvLCysE7yJQ5Q=)`,
+              backgroundImage: `url(${g_img_1})`,
             }}
           />
         </div>
@@ -85,7 +87,7 @@ const CarouselComp = ({ blogData }) => {
           <div
             className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full h-screen"
             style={{
-              backgroundImage: `url(https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg)`,
+              backgroundImage: `url(${g_img_2})`,
             }}
           />
         </div>

@@ -2,7 +2,7 @@ import iemLogo from "../img/iem_logo.jpeg";
 
 const Navbar = () => {
   return (
-    <nav className="z-10 navbar shadow-2xl bg-base-100 w-full flex justify-between items-center text-lg top-0 sticky">
+    <nav className="z-20 navbar shadow-2xl bg-base-100 w-full flex justify-between items-center text-lg top-0 sticky">
       <div className="flex items-center justify-between w-[75rem] mx-auto">
         <div className="dropdown sm:hidden">
           <label tabIndex="0" className="btn btn-ghost btn-circle">

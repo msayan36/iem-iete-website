@@ -1,4 +1,4 @@
-import { FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -25,13 +25,21 @@ const Footer = () => {
       </div>
       <div>
         <div className="grid grid-flow-col gap-4">
-          <a href="/">
-            <FaTwitter className="text-2xl hover:text-accent hover:scale-110 transition-all" />
+          <a
+            href="https://www.linkedin.com/in/iem-iete-students-forum-8b3145248/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <FaLinkedin className="text-2xl hover:text-accent hover:scale-110 transition-all" />
           </a>
           <a href="/">
             <FaYoutube className="text-2xl hover:text-accent hover:scale-110 transition-all" />
           </a>
-          <a href="/">
+          <a
+            href="https://www.facebook.com/107098072104931/posts/107100562104682/?substory_index=0&mibextid=ad618h"
+            rel="noreferrer"
+            target="_blank"
+          >
             <FaFacebookF className="text-2xl hover:text-accent hover:scale-110 transition-all" />
           </a>
         </div>
