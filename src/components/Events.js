@@ -16,28 +16,13 @@ const Events = () => {
               STUDENTS' FORUM INAUGURATION PROGRAM
             </h3>
             <p className="text-lg mb-5">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
-              facere incidunt doloribus numquam velit veniam enim assumenda
-              libero, illo rem vel animi cum laudantium. Dolorum, optio? Ad
-              fugiat possimus similique. Lorem ipsum dolor sit amet consectetur,
-              adipisicing elit. Praesentium sed ipsa maiores ea dolorum iste.
-              Lorem ipsum dolor sit amet.
-            </p>
-            <p className="text-lg mb-5">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
-              facere incidunt doloribus numquam velit veniam enim assumenda
-              libero, illo rem vel animi cum laudantium. Dolorum, optio? Ad
-              fugiat possimus similique. Lorem ipsum dolor sit amet consectetur,
-              adipisicing elit. Praesentium sed ipsa maiores ea dolorum iste.
-              Lorem ipsum dolor sit amet.
-            </p>
-            <p className="text-lg mb-5">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
-              facere incidunt doloribus numquam velit veniam enim assumenda
-              libero, illo rem vel animi cum laudantium. Dolorum, optio? Ad
-              fugiat possimus similique. Lorem ipsum dolor sit amet consectetur,
-              adipisicing elit. Praesentium sed ipsa maiores ea dolorum iste.
-              Lorem ipsum dolor sit amet.
+              IEM-IETE Students’ Forum was inaugurated on 10th August 2022 at
+              the in IETE Kolkata Centre. The student of IEM have became the
+              members of ISF with the coordination of Dr.Susovan Jana.
+              Dr.Jayanta Kumar Ray , Chairman of IETE Salt Lake Sub Centre was
+              the Chief Guest. Other dignitaries present at the inaugural
+              ceremony ,faculty members of various departments made their
+              presence.
             </p>
           </div>
           <img src={event1} alt="Event 1" className="event_img w-96 ml-3" />

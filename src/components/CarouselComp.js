@@ -3,6 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import g_img_1 from "../img/gallery_img/g_img_1.jpg";
 import g_img_2 from "../img/gallery_img/g_img_2.jpg";
+import g_img_3 from "../img/gallery_img/g_img_3.jpg";
 
 const CarouselComp = ({ blogData }) => {
   const responsive = {
@@ -88,6 +89,14 @@ const CarouselComp = ({ blogData }) => {
             className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full h-screen"
             style={{
               backgroundImage: `url(${g_img_2})`,
+            }}
+          />
+        </div>
+        <div className="relative h-screen cursor-pointer hover:opacity-90">
+          <div
+            className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full h-screen"
+            style={{
+              backgroundImage: `url(${g_img_3})`,
             }}
           />
         </div>

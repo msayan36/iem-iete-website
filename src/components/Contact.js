@@ -26,7 +26,7 @@ const Contact = () => {
           </div>
           <p className="text-lg mb-5">Or message us from here.</p>
           <form
-            action="https://formsubmit.co/sayanmunshi36@gmail.com"
+            action="https://formsubmit.co/iemiete2022@gmail.com"
             method="POST"
           >
             <input

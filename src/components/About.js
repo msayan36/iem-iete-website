@@ -12,17 +12,19 @@ const About = () => {
         </h2>
         <div className="descp flex items-center justify-between">
           <p className="text-lg text-justify mr-3">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
-            assumenda ex vel tempora esse eum unde veniam expedita ullam
-            laborum, pariatur, sit itaque similique quos! Et velit eum culpa est
-            minima aperiam natus voluptates labore assumenda repellat quas
-            dolorem consectetur, illum, ullam fugit nulla mollitia, modi
-            accusantium laudantium. Cumque, consequatur! Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Reiciendis consequuntur odio quos
-            pariatur fugiat earum qui explicabo. Magnam placeat consequatur
-            iste, eveniet earum itaque? Ab quibusdam consequuntur eum
-            perferendis! Ratione eveniet deserunt, laudantium rem veritatis illo
-            quos quae cupiditate hic.
+            The Institution of Electronics and Telecommunication Engineers
+            (IETE) is India's leading recognized professional society devoted to
+            the advancement of Science and Technology of Electronics,
+            Telecommunication & IT. IEM-IETE Students' Branch indulge in
+            activities and awareness through the conduction of Technical
+            seminars, workshops, conferences, and other technical and cultural
+            activities leading to promotion of IETE and advancement in
+            technology. IETE Students’ Forum was inaugurated on 10th August 2022
+            at the IETE Kolkata Centre. The student of IEM have became the
+            members of ISF with the coordination of Dr.Susovan Jana. Dr.Jayanta
+            Kumar Ray , Chairman of IETE Salt Lake Sub Centre was the Chief
+            Guest. Other dignitaries present at the inaugural ceremony ,faculty
+            members of various departments made their presence.
           </p>
           <img src={banner} alt="Banner" className="w-[30rem] ml-3" />
         </div>

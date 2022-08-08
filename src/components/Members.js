@@ -11,6 +11,8 @@ import anirban_das_img from "../img/anirban_das_img.jpg";
 import moutushi_maam_img from "../img/moutushi_maam_img.jpg";
 import susovan_sir_img from "../img/susovan_sir_img.jpg";
 import soumyadeep_img from "../img/soumyadeep_img.jpg";
+import rachana_img from "../img/rachana_img.jpg";
+import somrik_img from "../img/somrik_img.png";
 
 const Members = () => {
   return (
@@ -23,10 +25,10 @@ const Members = () => {
           MEMBERS
         </h2>
         <div className="mem_list">
-          <p className="text-lg">
+          {/* <p className="text-lg">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque unde
             eveniet earum eos fuga blanditiis accusamus, ad recusandae quia qui.
-          </p>
+          </p> */}
           <div className="mng_committee mt-5 mx-10 mb-16">
             <h3 className="text-2xl text-primary-content font-semibold">
               Management Committee [2022 - 2023]
@@ -83,9 +85,14 @@ const Members = () => {
                 role="Technical Administrator"
               />
               <Card
-                img={sahin_img}
-                name="Rachna Kumari"
+                img={rachana_img}
+                name="Rachana Kumari"
                 role="Graphics Designer"
+              />
+              <Card
+                img={somrik_img}
+                name="Somrik Kar"
+                role="Social Media Manager"
               />
             </div>
           </div>
