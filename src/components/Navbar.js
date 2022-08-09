@@ -1,41 +1,14 @@
+import { useState } from "react";
 import iemLogo from "../img/iem_logo.jpeg";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
+  const [toggleNav, setToggleNav] = useState(false);
+
   return (
-    <nav className="z-20 navbar shadow-2xl bg-base-100 w-full flex justify-between items-center text-lg top-0 sticky">
+    <nav className="z-20 navbar shadow-2xl bg-base-100 w-full flex justify-between items-center text-lg top-0 sticky sm:px-0 px-10">
       <div className="flex items-center justify-between w-[75rem] mx-auto">
-        <div className="dropdown sm:hidden">
-          <label tabIndex="0" className="btn btn-ghost btn-circle">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h16M4 18h7"
-              />
-            </svg>
-          </label>
-          <ul
-            tabIndex="0"
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-          >
-            <li>
-              <a href="/">Homepage</a>
-            </li>
-            <li>
-              <a href="/">Portfolio</a>
-            </li>
-            <li>
-              <a href="/">About</a>
-            </li>
-          </ul>
-        </div>
         <div>
           <a href="/">
             <img
@@ -72,6 +45,38 @@ const Navbar = () => {
               </li>
             </ul>
           </li> */}
+            <li>
+              <a href="#members">Members</a>
+            </li>
+            <li>
+              <a href="#announcements">Announcements</a>
+            </li>
+            <li>
+              <a href="#events">Events</a>
+            </li>
+            <li>
+              <a href="#media">Media</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div
+          onClick={() => setToggleNav((toggleNav) => !toggleNav)}
+          className="sm:hidden"
+        >
+          {toggleNav ? <FaTimes /> : <GiHamburgerMenu />}
+        </div>
+        <div
+          className={`absolute bg-base-100 top-16 h-screen p-10 right-0 rounded-md shadow-2xl ${
+            toggleNav ? "visible opacity-100" : "invisible opacity-0"
+          } transition-all`}
+        >
+          <ul className="menu flex flex-col items-start justify-center">
+            <li>
+              <a href="#about">About</a>
+            </li>
             <li>
               <a href="#members">Members</a>
             </li>

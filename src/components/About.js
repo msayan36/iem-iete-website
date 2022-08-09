@@ -3,15 +3,15 @@ import banner from "../img/banner.jpg";
 const About = () => {
   return (
     <div
-      className="mb-10 pt-20 flex flex-col items-center justify-between w-[75rem] mx-auto"
+      className="mb-10 pt-20 flex flex-col items-center justify-between lg:w-[75rem] w-screen mx-auto"
       id="about"
     >
-      <div className="w-11/12">
-        <h2 className="text-4xl mb-5 text-left font-bold text-accent border-b-4 border-b-accent w-fit">
+      <div className="lg:w-11/12 sm:w-9/12 w-11/12">
+        <h2 className="lg:text-4xl text-2xl mb-5 text-left font-bold text-accent border-b-4 border-b-accent w-fit">
           ABOUT US
         </h2>
-        <div className="descp flex items-center justify-between">
-          <p className="text-lg text-justify mr-3">
+        <div className="descp lg:flex items-center justify-between">
+          <p className="lg:text-lg text-base text-justify lg:mr-3">
             The Institution of Electronics and Telecommunication Engineers
             (IETE) is India's leading recognized professional society devoted to
             the advancement of Science and Technology of Electronics,
@@ -26,7 +26,11 @@ const About = () => {
             Guest. Other dignitaries present at the inaugural ceremony ,faculty
             members of various departments made their presence.
           </p>
-          <img src={banner} alt="Banner" className="w-[30rem] ml-3" />
+          <img
+            src={banner}
+            alt="Banner"
+            className="lg:w-[30rem] xs:w-8/12 w-10/12 lg:ml-3 mx-auto lg:mx-0 mt-10"
+          />
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <div className="flex flex-col items-center mx-auto">
+      <div className="flex flex-col items-center mx-auto relative">
         <Navbar />
         <Header />
         <About />

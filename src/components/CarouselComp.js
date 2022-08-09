@@ -76,25 +76,25 @@ const CarouselComp = ({ blogData }) => {
         className="z-10 h-fit md:w-full mx-auto"
         ssr={true}
       >
-        <div className="relative h-screen cursor-pointer hover:opacity-90">
+        <div className="relative lg:h-[30rem] xs:h-[20rem] h-[10rem] cursor-pointer hover:opacity-90">
           <div
-            className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full h-screen"
+            className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full lg:h-[30rem] xs:h-[20rem] h-[10rem]"
             style={{
               backgroundImage: `url(${g_img_1})`,
             }}
           />
         </div>
-        <div className="relative h-screen cursor-pointer hover:opacity-90">
+        <div className="relative lg:h-[30rem] xs:h-[20rem] h-[10rem] cursor-pointer hover:opacity-90">
           <div
-            className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full h-screen"
+            className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full lg:h-[30rem] xs:h-[20rem] h-[10rem]"
             style={{
               backgroundImage: `url(${g_img_2})`,
             }}
           />
         </div>
-        <div className="relative h-screen cursor-pointer hover:opacity-90">
+        <div className="relative lg:h-[30rem] xs:h-[20rem] h-[10rem] cursor-pointer hover:opacity-90">
           <div
-            className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full h-screen"
+            className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full lg:h-[30rem] xs:h-[20rem] h-[10rem]"
             style={{
               backgroundImage: `url(${g_img_3})`,
             }}

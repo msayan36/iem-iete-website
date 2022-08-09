@@ -1,30 +1,30 @@
 const Contact = () => {
   return (
     <div
-      className="mb-10 pt-20 flex flex-col items-center justify-between w-[75rem] mx-auto"
+      className="mb-10 pt-20 flex flex-col items-center justify-between lg:w-[75rem] w-screen mx-auto"
       id="contact"
     >
-      <div className="w-11/12">
-        <h2 className="text-4xl mb-5 text-left font-bold text-accent border-b-4 border-b-accent w-fit">
+      <div className="lg:w-11/12 sm:w-9/12 w-11/12">
+        <h2 className="lg:text-4xl text-2xl mb-5 text-left font-bold text-accent border-b-4 border-b-accent w-fit">
           GET IN TOUCH
         </h2>
         <div className="mx-10">
-          <p className="text-lg">
+          <p className="xs:text-lg text-base">
             In case of any query do reach out to us in the given below details.
           </p>
           <div className="my-5">
-            <p className="text-lg">
+            <p className="xs:text-lg text-base">
               <span className="text-primary-content font-semibold">Email:</span>{" "}
               iemiete2022@gmail.com / susovan.jana@iemcal.com
             </p>
-            <p className="text-lg">
+            <p className="xs:text-lg text-base">
               <span className="text-primary-content font-semibold">
                 Mobile No.:
               </span>{" "}
               (+91)9748052998
             </p>
           </div>
-          <p className="text-lg mb-5">Or message us from here.</p>
+          <p className="xs:text-lg text-base mb-5">Or message us from here.</p>
           <form
             action="https://formsubmit.co/iemiete2022@gmail.com"
             method="POST"
@@ -94,7 +94,7 @@ const Contact = () => {
                 <div className="p-2 w-full">
                   <button
                     type="submit"
-                    className="btn flex mx-auto bg-accent border-0 py-2 px-8 focus:outline-none hover:bg-accent-focus rounded text-lg"
+                    className="btn flex mx-auto bg-accent border-0 xs:py-2 xs:px-8 py-1 px-4 focus:outline-none hover:bg-accent-focus rounded xs:text-lg text-base"
                   >
                     Submit
                   </button>

@@ -1,16 +1,20 @@
-import React from "react";
-
 const SeniorCard = ({ imgSrc, name, role, dsgn }) => {
   return (
-    <div className="card card-side bg-base-100 shadow-xl my-10 cursor-pointer hover:-translate-y-5 transition-all">
+    <div className="card lg:card-side bg-base-300 shadow-xl my-10 cursor-pointer hover:-translate-y-5 transition-all">
       <figure>
-        <img src={imgSrc} alt="Img" className="w-72" />
+        <img src={imgSrc} alt="Img" className="lg:w-72 w-52 mt-5 lg:mt-0" />
       </figure>
-      <div className="card-body">
-        <h2 className="text-3xl font-bold mb-10">{name}</h2>
+      <div className="card-body mx-auto">
+        <h2 className="lg:text-3xl text-xl font-bold mb-10 text-center">
+          {name}
+        </h2>
         <div>
-          <p className="text-xl mb-5 font-semibold">{role}</p>
-          <p className="text-xl mb-5 font-semibold">{dsgn}</p>
+          <p className="lg:text-xl text-lg mb-5 font-semibold text-center">
+            {role}
+          </p>
+          <p className="lg:text-xl text-lg mb-5 font-semibold text-center">
+            {dsgn}
+          </p>
         </div>
       </div>
     </div>

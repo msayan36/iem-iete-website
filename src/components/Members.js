@@ -17,11 +17,11 @@ import somrik_img from "../img/somrik_img.png";
 const Members = () => {
   return (
     <div
-      className="mb-10 pt-20 flex flex-col items-center justify-between w-[75rem] mx-auto"
+      className="mb-10 pt-20 flex flex-col items-center justify-between lg:w-[75rem] w-screen mx-auto"
       id="members"
     >
-      <div className="w-11/12">
-        <h2 className="text-4xl mb-5 text-left font-bold text-accent border-b-4 border-b-accent w-fit">
+      <div className="lg:w-11/12 sm:w-9/12 w-11/12">
+        <h2 className="lg:text-4xl text-2xl mb-5 text-left font-bold text-accent border-b-4 border-b-accent w-fit">
           MEMBERS
         </h2>
         <div className="mem_list">
@@ -29,11 +29,11 @@ const Members = () => {
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque unde
             eveniet earum eos fuga blanditiis accusamus, ad recusandae quia qui.
           </p> */}
-          <div className="mng_committee mt-5 mx-10 mb-16">
-            <h3 className="text-2xl text-primary-content font-semibold">
+          <div className="mng_committee mt-5 xs:mx-10 mx-5 mb-16">
+            <h3 className="lg:text-2xl text-xl text-primary-content font-semibold">
               Management Committee [2022 - 2023]
             </h3>
-            <div className="scenior_sec my-16 mx-32">
+            <div className="scenior_sec my-16 lg:mx-32 sm:mx-16">
               <SeniorCard
                 imgSrc={anirban_das_img}
                 name="Dr. Anirban Das"
@@ -53,7 +53,7 @@ const Members = () => {
                 dsgn="Assistant Professor Department of IT"
               />
             </div>
-            <div className="grid grid-cols-3 gap-10 mt-10 mx-10">
+            <div className="grid grid-cols-2 lg:gap-10 gap-5 mt-10 sm:mx-10">
               <Card img={sayan_img} name="Sayan Das" role="Chairman" />
               <Card img={sahin_img} name="Sahin Rizwana" role="Vice-Chairman" />
               <Card
@@ -74,11 +74,11 @@ const Members = () => {
               />
             </div>
           </div>
-          <div className="mng_committee mt-5 mx-10 mb-16">
+          <div className="mng_committee mt-5 xs:mx-10 mx-5 mb-16">
             <h3 className="text-2xl text-primary-content font-semibold">
               Technical Committee [2022 - 2023]
             </h3>
-            <div className="grid grid-cols-3 gap-10 mt-10 mx-10">
+            <div className="grid grid-cols-2 lg:gap-10 gap-5 mt-10 sm:mx-10">
               <Card
                 img={soumyadeep_img}
                 name="Saumyadeep Chakrabarty"
@@ -96,11 +96,11 @@ const Members = () => {
               />
             </div>
           </div>
-          <div className="mng_committee mt-5 mx-10">
+          <div className="mng_committee mt-5 xs:mx-10 mx-5">
             <h3 className="text-2xl text-primary-content font-semibold">
               All Members
             </h3>
-            <div className="grid grid-cols-3 gap-5 mt-10 mx-10">
+            <div className="grid grid-cols-2 xs:gap-5 gap-2 mt-10 lg:mx-10 sm:mx-3">
               <CardMem
                 name="JYOTIPRAKASH PORE"
                 refNo="ISFC-1051"

@@ -3,19 +3,19 @@ import event1 from "../img/event1.jpg";
 const Events = () => {
   return (
     <div
-      className="mb-10 pt-20 flex flex-col items-center justify-between w-[75rem] mx-auto"
+      className="mb-10 pt-20 flex flex-col items-center justify-between lg:w-[75rem] w-screen mx-auto"
       id="events"
     >
-      <div className="w-11/12">
-        <h2 className="text-4xl mb-5 text-left font-bold text-accent border-b-4 border-b-accent w-fit">
+      <div className="lg:w-11/12 sm:w-9/12 w-11/12">
+        <h2 className="lg:text-4xl text-2xl mb-5 text-left font-bold text-accent border-b-4 border-b-accent w-fit">
           EVENTS
         </h2>
-        <div className="event_body flex justify-center mx-5">
+        <div className="event_body lg:flex justify-center mx-5">
           <div className="event_det mr-3">
-            <h3 className="text-center my-5 text-2xl font-bold text-primary-content">
+            <h3 className="text-center my-5 lg:text-2xl text-xl font-bold text-primary-content">
               STUDENTS' FORUM INAUGURATION PROGRAM
             </h3>
-            <p className="text-lg mb-5">
+            <p className="lg:text-lg text-base mb-5 text-justify">
               IEM-IETE Students’ Forum was inaugurated on 10th August 2022 at
               the in IETE Kolkata Centre. The student of IEM have became the
               members of ISF with the coordination of Dr.Susovan Jana.
@@ -25,7 +25,11 @@ const Events = () => {
               presence.
             </p>
           </div>
-          <img src={event1} alt="Event 1" className="event_img w-96 ml-3" />
+          <img
+            src={event1}
+            alt="Event 1"
+            className="event_img lg:w-96 w-7/12 lg:ml-3 mx-auto"
+          />
         </div>
       </div>
     </div>

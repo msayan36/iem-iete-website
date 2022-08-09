@@ -2,8 +2,8 @@ import { FaFacebookF, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="footer bg-base-200 footer-center p-10 text-base-content rounded">
-      <div className="grid grid-flow-col gap-4">
+    <footer className="footer bg-base-200 footer-center xs:p-10 py-10 xs:py-0 xs:px-0 text-base-content rounded">
+      <div className="xs:grid xs:grid-flow-col xs:gap-4 grid grid-cols-3 gap-4">
         <a href="#about" className="link link-hover">
           About
         </a>
