@@ -53,7 +53,7 @@ const Members = () => {
                 dsgn="Assistant Professor Department of IT"
               />
             </div>
-            <div className="grid grid-cols-2 lg:gap-10 gap-5 mt-10 sm:mx-10">
+            <div className="grid lg:grid-cols-3 grid-cols-2 lg:gap-10 gap-5 mt-10 sm:mx-10">
               <Card img={sayan_img} name="Sayan Das" role="Chairman" />
               <Card img={sahin_img} name="Sahin Rizwana" role="Vice-Chairman" />
               <Card
@@ -78,7 +78,7 @@ const Members = () => {
             <h3 className="text-2xl text-primary-content font-semibold">
               Technical Committee [2022 - 2023]
             </h3>
-            <div className="grid grid-cols-2 lg:gap-10 gap-5 mt-10 sm:mx-10">
+            <div className="grid lg:grid-cols-3 grid-cols-2 lg:gap-10 gap-5 mt-10 sm:mx-10">
               <Card
                 img={soumyadeep_img}
                 name="Saumyadeep Chakrabarty"
@@ -100,7 +100,7 @@ const Members = () => {
             <h3 className="text-2xl text-primary-content font-semibold">
               All Members
             </h3>
-            <div className="grid grid-cols-2 xs:gap-5 gap-2 mt-10 lg:mx-10 sm:mx-3">
+            <div className="grid lg:grid-cols-3 grid-cols-2 xs:gap-5 gap-2 mt-10 lg:mx-10 sm:mx-3">
               <CardMem
                 name="JYOTIPRAKASH PORE"
                 refNo="ISFC-1051"
