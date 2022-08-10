@@ -64,7 +64,7 @@ const Members = () => {
               <Card img={sayan_adak_img} name="Sayan Adak" role="Treasurer" />
               <Card
                 img={sathi_img}
-                name="Sathi Mahato"
+                name="Sathi Mahata"
                 role="Program Coordinator"
               />
               <Card
