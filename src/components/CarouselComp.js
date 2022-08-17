@@ -4,6 +4,17 @@ import "react-multi-carousel/lib/styles.css";
 import g_img_1 from "../img/gallery_img/g_img_1.jpg";
 import g_img_2 from "../img/gallery_img/g_img_2.jpg";
 import g_img_3 from "../img/gallery_img/g_img_3.jpg";
+import g_img_4 from "../img/gallery_img/g_img_4.jpg";
+import g_img_5 from "../img/gallery_img/g_img_5.jpg";
+import g_img_6 from "../img/gallery_img/g_img_6.jpg";
+import g_img_7 from "../img/gallery_img/g_img_7.jpg";
+import g_img_8 from "../img/gallery_img/g_img_8.jpg";
+import g_img_9 from "../img/gallery_img/g_img_9.jpg";
+import g_img_10 from "../img/gallery_img/g_img_10.jpg";
+import g_img_11 from "../img/gallery_img/g_img_11.jpg";
+import g_img_12 from "../img/gallery_img/g_img_12.jpg";
+import g_img_13 from "../img/gallery_img/g_img_13.jpg";
+import g_img_14 from "../img/gallery_img/g_img_14.jpg";
 
 const CarouselComp = ({ blogData }) => {
   const responsive = {
@@ -97,6 +108,94 @@ const CarouselComp = ({ blogData }) => {
             className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full lg:h-[30rem] xs:h-[20rem] h-[10rem]"
             style={{
               backgroundImage: `url(${g_img_3})`,
+            }}
+          />
+        </div>
+        <div className="relative lg:h-[30rem] xs:h-[20rem] h-[10rem] cursor-pointer hover:opacity-90">
+          <div
+            className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full lg:h-[30rem] xs:h-[20rem] h-[10rem]"
+            style={{
+              backgroundImage: `url(${g_img_4})`,
+            }}
+          />
+        </div>
+        <div className="relative lg:h-[30rem] xs:h-[20rem] h-[10rem] cursor-pointer hover:opacity-90">
+          <div
+            className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full lg:h-[30rem] xs:h-[20rem] h-[10rem]"
+            style={{
+              backgroundImage: `url(${g_img_5})`,
+            }}
+          />
+        </div>
+        <div className="relative lg:h-[30rem] xs:h-[20rem] h-[10rem] cursor-pointer hover:opacity-90">
+          <div
+            className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full lg:h-[30rem] xs:h-[20rem] h-[10rem]"
+            style={{
+              backgroundImage: `url(${g_img_6})`,
+            }}
+          />
+        </div>
+        <div className="relative lg:h-[30rem] xs:h-[20rem] h-[10rem] cursor-pointer hover:opacity-90">
+          <div
+            className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full lg:h-[30rem] xs:h-[20rem] h-[10rem]"
+            style={{
+              backgroundImage: `url(${g_img_7})`,
+            }}
+          />
+        </div>
+        <div className="relative lg:h-[30rem] xs:h-[20rem] h-[10rem] cursor-pointer hover:opacity-90">
+          <div
+            className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full lg:h-[30rem] xs:h-[20rem] h-[10rem]"
+            style={{
+              backgroundImage: `url(${g_img_8})`,
+            }}
+          />
+        </div>
+        <div className="relative lg:h-[30rem] xs:h-[20rem] h-[10rem] cursor-pointer hover:opacity-90">
+          <div
+            className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full lg:h-[30rem] xs:h-[20rem] h-[10rem]"
+            style={{
+              backgroundImage: `url(${g_img_9})`,
+            }}
+          />
+        </div>
+        <div className="relative lg:h-[30rem] xs:h-[20rem] h-[10rem] cursor-pointer hover:opacity-90">
+          <div
+            className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full lg:h-[30rem] xs:h-[20rem] h-[10rem]"
+            style={{
+              backgroundImage: `url(${g_img_10})`,
+            }}
+          />
+        </div>
+        <div className="relative lg:h-[30rem] xs:h-[20rem] h-[10rem] cursor-pointer hover:opacity-90">
+          <div
+            className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full lg:h-[30rem] xs:h-[20rem] h-[10rem]"
+            style={{
+              backgroundImage: `url(${g_img_11})`,
+            }}
+          />
+        </div>
+        <div className="relative lg:h-[30rem] xs:h-[20rem] h-[10rem] cursor-pointer hover:opacity-90">
+          <div
+            className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full lg:h-[30rem] xs:h-[20rem] h-[10rem]"
+            style={{
+              backgroundImage: `url(${g_img_12})`,
+            }}
+          />
+        </div>
+        <div className="relative lg:h-[30rem] xs:h-[20rem] h-[10rem] cursor-pointer hover:opacity-90">
+          <div
+            className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full lg:h-[30rem] xs:h-[20rem] h-[10rem]"
+            style={{
+              backgroundImage: `url(${g_img_13})`,
+            }}
+          />
+        </div>
+        <div className="relative lg:h-[30rem] xs:h-[20rem] h-[10rem] cursor-pointer hover:opacity-90">
+          <div
+            className="absolute rounded-lg bg-center bg-no-repeat bg-cover shadow-md inline-block w-full lg:h-[30rem] xs:h-[20rem] h-[10rem]"
+            style={{
+              backgroundImage: `url(${g_img_14})`,
             }}
           />
         </div>
