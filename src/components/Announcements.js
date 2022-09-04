@@ -10,6 +10,10 @@ const Announcements = () => {
         </h2>
         <ul className="ann_body mx-10 mt-5">
           <li className="lg:text-lg text-base text-primary-content font-semibold list-disc">
+            CODING COMPETITION IN COLLABORATION WITH NEWTWON SCHOOL - 11th
+            September, 2022 | 7:00 PM - 10:00 PM (IST)
+          </li>
+          <li className="lg:text-lg text-base text-primary-content font-semibold list-disc">
             STUDENTS' FORUM INAUGURATION PROGRAM - 10th August, 2022
           </li>
         </ul>
