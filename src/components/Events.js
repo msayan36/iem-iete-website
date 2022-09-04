@@ -1,5 +1,5 @@
 import event1 from "../img/event1.jpg";
-import event2 from "../img/event2.jpg";
+import event2 from "../img/event2.jpeg";
 
 const Events = () => {
   return (
