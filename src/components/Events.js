@@ -11,7 +11,7 @@ const Events = () => {
         <h2 className="lg:text-4xl text-2xl mb-5 text-left font-bold text-accent border-b-4 border-b-accent w-fit">
           EVENTS
         </h2>
-        <div className="event_body lg:flex justify-center mx-5">
+        <div className="event_body lg:flex justify-center mx-5 my-10">
           <div className="event_det mr-3">
             <h3 className="text-center my-5 lg:text-2xl text-xl font-bold text-primary-content">
               CODING COMPETITION IN COLLABORATION WITH NEWTWON SCHOOL
@@ -37,7 +37,7 @@ const Events = () => {
             className="event_img lg:w-96 w-7/12 lg:ml-3 mx-auto"
           />
         </div>
-        <div className="event_body lg:flex justify-center mx-5">
+        <div className="event_body lg:flex justify-center mx-5 my-10">
           <div className="event_det mr-3">
             <h3 className="text-center my-5 lg:text-2xl text-xl font-bold text-primary-content">
               STUDENTS' FORUM INAUGURATION PROGRAM
