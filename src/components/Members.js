@@ -13,6 +13,7 @@ import susovan_sir_img from "../img/susovan_sir_img.jpg";
 import soumyadeep_img from "../img/soumyadeep_img.jpg";
 import rachana_img from "../img/rachana_img.jpg";
 import somrik_img from "../img/somrik_img.png";
+import studentData from "../data/studentData";
 
 const Members = () => {
   return (
@@ -101,73 +102,16 @@ const Members = () => {
               All Members
             </h3>
             <div className="grid lg:grid-cols-3 grid-cols-2 xs:gap-5 gap-2 mt-10 lg:mx-10 sm:mx-3">
-              <CardMem
-                name="JYOTIPRAKASH PORE"
-                refNo="ISFC-1051"
-                memNo="245804"
-              />
-              <CardMem name="KSHITIJ GUPTA" refNo="ISFC-1051" memNo="245805" />
-              <CardMem name="ROHIT KUMAR" refNo="ISFC-1051" memNo="245806" />
-              <CardMem name="SATHI MAHATA" refNo="ISFC-1051" memNo="245807" />
-              <CardMem
-                name="SAUMYADEEP CHAKRABARTY"
-                refNo="ISFC-1051"
-                memNo="245808"
-              />
-              <CardMem
-                name="TINA MUKHOPADHYAY"
-                refNo="ISFC-1051"
-                memNo="245809"
-              />
-              <CardMem
-                name="PRATYUSH KUMAR SINGH"
-                refNo="ISFC-1051"
-                memNo="245810"
-              />
-              <CardMem name="PANKAJ KUMAR" refNo="ISFC-1051" memNo="245811" />
-              <CardMem
-                name="ADITYA KUMAR SEN"
-                refNo="ISFC-1051"
-                memNo="245814"
-              />
-              <CardMem name="SOYEB SARKAR" refNo="ISFC-1051" memNo="245815" />
-              <CardMem name=" MD AZHARUDDIN" refNo="ISFC-1051" memNo="245816" />
-              <CardMem name="SHAHIN RIZWANA" refNo="ISFC-1051" memNo="245817" />
-              <CardMem name="AMAN KUMAR" refNo="ISFC-1051" memNo="245818" />
-              <CardMem
-                name="ANKUSH CHAKRABORTY"
-                refNo="ISFC-1051"
-                memNo="245819"
-              />
-              <CardMem
-                name="SOUMADEEP SARKAR"
-                refNo="ISFC-1051"
-                memNo="245820"
-              />
-              <CardMem name="SAHIL HOSSAIN" refNo="ISFC-1051" memNo="245821" />
-              <CardMem name="PARIJAT DAS" refNo="ISFC-1051" memNo="245822" />
-              <CardMem name="SAYAN DAS" refNo="ISFC-1051" memNo="245823" />
-              <CardMem name="RACHANA KUMARI" refNo="ISFC-1051" memNo="245824" />
-              <CardMem name="SUBHAM SAHA" refNo="ISFC-1051" memNo="245825" />
-              <CardMem name="SOMRIK KAR" refNo="ISFC-1051" memNo="245826" />
-              <CardMem
-                name="AASTIK DAS GUPTA"
-                refNo="ISFC-1051"
-                memNo="245829"
-              />
-              <CardMem name="AASHISH GAUTAM" refNo="ISFC-1051" memNo="245830" />
-              <CardMem name="SAYAN ADAK" refNo="ISFC-1051" memNo="245812" />
-              <CardMem name="AVIK PANDA" refNo="ISFC-1051" memNo="245813" />
-              <CardMem
-                name="SOURAV PRAMANIK"
-                refNo="ISFC-1051"
-                memNo="245827"
-              />
-              <CardMem
-                name="NASHIMUDDIN MOLLAH"
-                refNo="ISFC-1051"
-                memNo="245828"
-              />
+              {studentData.map((data, idx) => {
+                return (
+                  <CardMem
+                    name={data.name}
+                    refNo={data.refNo}
+                    memNo={data.memNo}
+                    key={idx}
+                  />
+                );
+              })}
             </div>
           </div>
         </div>
